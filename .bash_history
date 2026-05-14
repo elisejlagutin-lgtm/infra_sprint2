@@ -520,3 +520,208 @@ cd kittygram_backend/
 sudo nano settings.py 
 sudo systemctl restart gunicorn
 sudo systemctl restart nginx
+ls
+cd infra_sprint1/
+source venv/bin/activate
+pip list
+sudo systemctl status gunicorn_kittygramm.service 
+cd infra_sprint1/
+cd backend/
+cd kittygram_backend/
+cd ..
+source venv/bin/activate
+cd backend/cd k
+cd backend/
+cd kittygram_backend/
+sudo nano settings.py 
+cd ..
+cd kittygram_backend/
+sudo nano settings.py 
+cd ..
+pip list
+sudo apt install nginx -y
+sudo systemctl start nginx
+sudo systemctl stop nginx
+sudo systemctl start nginx
+sudo systemctl stop nginx
+sudo systemctl start nginx
+sudo ufw allow 'Nginx Full'
+sudo ufw allow OpenSSH 
+sudo ufw enable
+sudo ufw status
+cd ..
+cd taski/
+cd backend/
+ls
+sudo nano settings.py 
+cd backend/
+sudo nano settings.py 
+sudo nginx -t
+sudo systemctl reload nginx
+cd infra_sprint1/backend/kittygram_backend/
+sudo nano settings.py 
+cd ..
+source venv/
+
+sudo apt install snapd
+sudo snap install core; sudo snap refresh core
+sudo snap install --classic certbot
+pip list
+cd infra_sprint1/
+source venv/bin/activate
+sudo ln -s /snap/bin/certbot /usr/bin/certbot 
+sudo certbot --nginx
+sudo nano /etc/nginx/sites-enabled/default
+sudo systemctl reload nginx
+sudo certbot certificates
+sudo certbot renew --dry-run
+sudo certbot certificates
+sudo certbot --nginx
+cd ..
+cd taski/
+deactivate
+ls
+cd backend/
+ls
+source venv/bin/
+source venv/bin/activate
+sodo nano /etc/
+sudo nano /etc/nginx/sites-enabled/default 
+sudo nginx -t
+sudo reoload nginx
+sudo systemctl restart gunicorn
+sudo nano /etc/nginx/sites-enabled/default 
+ls /var/www/taski/static_backend/
+ls /var/www/taski/
+sudo nano /etc/nginx/sites-enabled/default 
+sudo systemctl restart gunicorn
+sudo systemctl restart nginx
+sudo nano /etc/nginx/sites-enabled/default 
+sudo systemctl restart nginx
+sudo systemctl reload nginx
+sudo nano /etc/nginx/sites-enabled/default 
+sudo systemctl reload nginx
+sudo nano /etc/nginx/sites-enabled/default 
+ls /var/www/
+sudo nano /etc/nginx/sites-enabled/default
+ls /var/www/taski/static/
+ls /var/www/kittygram/static/static_backend/
+ls /var/www/taski/
+ls /var/www/taski/static
+ls /var/www/taski/static_backend/
+sudo systemctl start gunicorn
+ls
+cd backend/
+sudo nano settings.py 
+cd ..
+python manage.py collectstatic
+cd backend/
+sudo nano settings.py 
+cd ..
+python manage.py collectstatic
+sudo chown -R ubuntu:ubuntu /var/www/taski/static_backend/
+sudo chmod -R 755 /var/www/taski/static_backend/
+python manage.py collectstatic
+cd backend/
+sudo nano settings.py 
+cd ..
+cd /etc/nginx/sites-enabled/default
+sudo nano /etc/nginx/sites-enabled/default 
+sudo systemctl reload nginx.service 
+sudo systemctl reload nginx
+sudo nano /etc/nginx/sites-enabled/default 
+cd backend/
+sudo nano settings.py 
+sudo nano /etc/nginx/sites-enabled/default 
+sudo nano settings.py 
+sudo systemctl reload nginx
+ls -la /var/www/taski/static_backend/
+sudo nginx -t
+sudo systemctl restart gunicorn
+sudo systemctl reload nginx
+cd infra_sprint1/
+cd backend/kittygram_backend/
+sudo nano settings.py 
+cd ..
+python manage.py collectstatic
+python3 manage.py collectstatic
+cd ..
+source venv/bin/activate
+cd backend/
+python3 manage.py collectstatic
+mkdir static_backend
+sudo  mkdir static_backend
+python3 manage.py collectstatic
+ls
+sudo chown -R ubuntu:ubuntu static_backend
+python3 manage.py collectstatic
+cd ..
+sudo cp -r /home/ubuntu/infra_sprint1/backend/static_backend/ /var/www/infra_sprint1/static_backend
+sudo cp -r /home/ubuntu/infra_sprint1/backend/static_backend/ /var/www/infra_sprint1/static_backend/
+sudo cp -r /home/ubuntu/infra_sprint1/backend/static_backend/ /var/www/infra_sprint1/static/
+ls /var/www/infra_sprint1/
+ls /var/www/
+sudo cp -r /home/ubuntu/infra_sprint1/backend/static_backend/ /var/www/kittygram/static/
+sudo nano /etc/nginx/sites-enabled/default 
+sudo nginx -t
+sudo systemctl reload nginx
+sudo systemctl stop nginx
+sudo systemctl start nginx
+ls -la /var/www/kittygram/static/
+sudo chown -R www-data:www-data /var/www/kittygram/static
+ls -la /var/www/kittygram/static/
+sudo systemctl reload nginx
+ls -la /var/www/kittygram/
+sudo nano /etc/nginx/sites-enabled/default
+sudo systemctl reload nginx
+sudo nano /etc/nginx/sites-enabled/default
+sudo systemctl reload nginx
+sudo nano /etc/nginx/sites-enabled/default
+ls /var/www/kittygram/
+ls /var/www/kittygram/static/
+sudo nano /etc/nginx/sites-enabled/default
+sudo systemctl reload nginx
+cd infra_sprint1/
+source venv/bin/activate
+sudo nano /etc/nginx/sites-enabled/default
+sudo systemctl start nginx
+sudo systemctl start gunicorn_kittygram
+sudo systemctl status gunicorn_kittygramm.service 
+cd backend/
+sudo systemctl start nginx
+sudo systemctl status nginx
+sudo systemctl status gunicorn_kittygramm.service
+sudo systemctl stop gunicorn_kittygramm.service
+ps aux | grep gunicorn
+sudo kill 890 1003
+ps aux | grep gunicorn
+sudo systemctl daemon-reload
+sudo systemctl start gunicorn_kittygramm.service
+sudo systemctl status gunicorn_kittygramm.service
+sudo systemctl status gunicorn
+sudo systemctl start nginx
+sudo systemctl status nginx
+sudo systemctl start gunicorn
+sudo nano /etc/nginx/sites-enabled/default 
+cat /etc/nginx/sites-enabled/default
+ls -la /var/www/kittygram/static/static_backend/
+sudo chown -R www-data:www-data /var/www/kittygram/static/
+sudo chmod -R 755 /var/www/kittygram/static/
+sudo tail -f /var/log/nginx/error.log
+sudo nano /etc/nginx/sites-enabled/default 
+sudo systemctl reload nginx
+sudo nano /etc/nginx/sites-enabled/default 
+sudo systemctl reload nginx
+pip install python-decouple
+cd ..
+ls
+sudo nano .env
+cd backend/b
+cd backend/
+ls
+cd kittygram_backend/
+sudo nano settings.py 
+cd ..
+sudo nano .env 
+cd backend/kittygram_backend/
+sudo nano settings.py 

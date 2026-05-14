@@ -5,12 +5,20 @@
 __pycache__/
 local_settings.py
 db.sqlite3
-db.sqlite3-journal
 media/
 staticfiles/
 
-# Gunicorn
-*.sock
+# Frontend
+node_modules/
+npm-debug.log
+yarn-error.log
+.yarn-integrity
+
+# Python
+.venv/
+venv/
+ENV/
+.env
 
 # OS
 .DS_Store
@@ -21,3 +29,4 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+

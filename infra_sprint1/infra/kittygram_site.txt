@@ -1,0 +1,6 @@
+ IP: IP 81.26.183.15;
+ name_taski: https://weer.3utilities.com;
+ name_kittygram: https://kitty.3utilities.com;
+ login: ubuntu;
+ password: popka123;
+ 
